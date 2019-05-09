@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Homework 1.3-->
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title> EXERCISE2 </title>
+    <link rel="shortcut icon" href="http://wikipedia.com/static/favicon/wikipedia.ico">
+    <link rel="stylesheet" type="text/css" href="css/css-reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  </head>
+
+  <body>
+    <header class="page-header">
+      <!-- Remember to add my own logo later-->
+      <img src="img/oni.png" alt="Nathaniel's Logo" height="70" width="200" class="Page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+           <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+         </li>
+         <li role="presentation">
+           <a href="about.html" role="menuitem" class="navigation-list__item">About Me</a>
+         </li>
+         <li role="presentation">
+           <a href="contact.html" role="menuitem" class="navition-list__item">Contact</a>
+         </li>
+         <li role="presentation">
+           <a href="work.html" role="menuitem" class="navition-list__item">Work</a>
+         </li>
+       </ul>
+     </nav>
+    </header>
+  <div class="center">
+    <h1>Contact</h1>
+    <p>
+      Nathaniel Brunk<br>
+      Dordtselaan 87B <br>
+      3081BH Rotterdam<br>
+      The Netherlands<br>
+      <br>
+      Tel   <a href="tel:+316 82550102">Arrange a call with Nathaniel +31682550102</a><br>
+      Skype <a href="skype:live:nathaniel_brunk">live:nathaniel_brunk </a> <br>
+       <a href="mailto:Nathaniel_Brunk@hotmail.com">Nathaniel_Brunk@hotmail.com</a> <br>
+       <a href="mailto:Nathaniel_Brunk@yahoo.com">Nathaniel_Brunk@yahoo.com</a><br>
+
+
+       Just in case you are interested, you can <a href="cv.pdf" class="button1" download> Download my CV </a>
+    </p>
+
+      <form action="" method="post" id="contact-form">
+
+        <label class="standard-label" for="contact-email"> E-mail: </label>
+          <input type="email" id="contact-email" required>
+          <!-- no paterns because Im using the international phone number method-->
+        <label class="standard-label" for="contact-tel"> Telephone: </label>
+          <input type="tel" id="contact-tel" required>
+
+        <Label class="standard-label" for="contact-message"> Message: </label>
+          <textarea maxlength="240" id="contact-message" required></textarea>
+          <input type="submit" value="Send message">
+      </form>
+    </div>
+
+
+       <!-- used the (icons8 site) -->
+      <footer class="page-footer">
+       <p> Find me on </p>
+       <div class="social-media">
+         <a href="https://github.com/8e9one" target="_blank">
+           <img src="https://img.icons8.com/windows/30/000000/github.png" alt="Github">
+         </a>
+         <a href="https://Twitter.com" target="_blank">
+           <img src="https://img.icons8.com/color/30/000000/twitter.png" alt= "Twitter">
+         </a>
+         <a href="https://linkedin.com" target="_blank">
+           <img src="https://img.icons8.com/color/40/000000/linkedin.png" alt="LinkedIn">
+         </a>
+       </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+</body>
+  </body>
+
+</html>
