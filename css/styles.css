@@ -26,43 +26,44 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-style: italic;
-  text-decoration: underline;
-
-  h1 {
-    font-size: 30px;
-    font-weight: 700;
-  }
-
-  h2 {
-    font-size: 24px;
-    font-weight: 700;
-  }
-
-  h3 {
-    font-size: 18px;
-    font-weight: 700;
-  }
-
-  a {
-    color: #357b70;
-  }
-
-  a :visited {
-    /* When the user has visited the link */
-    color: #05676e;
-  }
-
-  a :hover,
-  a :focus {
-    /* No underling when the user is hovering over a link */
-    text-decoration: none;
-  }
-
-  a :active {
-    /* When the user has selected the link */
-    color: #489c79;
-  }
+  text-decoration: none;
 }
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+a {
+  color: #357b70;
+}
+
+a :visited {
+/* When the user has visited the link */
+  color: #05676e;
+}
+
+a :hover,
+a :focus {
+/* No underling when the user is hovering over a link */
+  text-decoration: none;
+}
+
+a :active {
+/* When the user has selected the link */
+  color: #489c79;
+}
+
 
 /* header content */
 .page-header {
